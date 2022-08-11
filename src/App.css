@@ -1,0 +1,23 @@
+
+.App {
+  max-width: 90%;
+  margin: auto;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+
+/* @media only screen and (max-width:1200px) {
+  .App {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width:1050px) {
+  .App {
+    max-width: 90%;
+  }
+} */
+
