@@ -1,6 +1,8 @@
 import { projectsData } from "../../data/projects-data";
+import { useTitle } from "../../hooks/useTitle";
 
 export function Projects() {
+    useTitle("Projects");
   return (
     <div>
       <h2 className="text-4xl mt-4 mb-8">My Projects</h2>

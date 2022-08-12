@@ -2,12 +2,14 @@ import React from "react";
 import { default as hero } from "../../assets/images/hero.png";
 import { iconData } from "../../data/icon-data";
 import { projectsData } from "../../data/projects-data";
+import { useTitle } from "../../hooks/useTitle";
 export function Home() {
+  useTitle("Home");
   return (
     <div>
       <section className="font-bold flex lg:flex-col flex-wrap w-full">
         <div className="flex-1 flex flex-col justify-center align-center tracking-widest text-gray-600 text-5xl xl:text-4xl">
-          <h1 className=" leading-tight">
+          <h1 className=" leading-tight ">
             Hey! <span className="block">I am Mahendra Chauhan. </span>
           </h1>
           <h1 className="leading-tight">A frontend developer!</h1>

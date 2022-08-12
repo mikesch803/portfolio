@@ -1,7 +1,9 @@
 import React from "react";
 import { blogsData } from "../../data/blogs-data";
+import { useTitle } from "../../hooks/useTitle";
 
 export function Blogs() {
+    useTitle("Blogs");
   return (
     <div>
       <h2 className="text-4xl mt-4 mb-8">My blogs</h2>

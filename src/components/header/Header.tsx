@@ -1,5 +1,6 @@
 import React from "react";
 import {  NavLink } from "react-router-dom";
+import { Options } from "../options/Options";
 
 export function Header() {
   const navLinks = ["projects", "blogs"];
@@ -17,7 +18,7 @@ export function Header() {
         <NavLink to="/">Mahendra.</NavLink>
       </h1>
 
-      <ul className="font text-xl flex items-center ">
+      <ul className="sm:hidden font text-xl flex items-center ">
         {navLinks.map((item) => (
           <li key={item} className="list-none ml-5 capitalize">
             <NavLink to={item} style={navlinkStyles}>
@@ -30,6 +31,7 @@ export function Header() {
           connect
         </a>
       </ul>
+        <Options/>
     </header>
   );
 }
