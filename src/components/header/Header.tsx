@@ -15,7 +15,9 @@ export function Header() {
   return (
     <header className="flex justify-between py-5 " id="home">
       <h1 className="font-bold text-2xl">
-        <NavLink to="/">Mahendra.</NavLink>
+        <NavLink to="/">
+          Mahendra.
+        </NavLink>
       </h1>
 
       <ul className="sm:hidden font text-xl flex items-center ">

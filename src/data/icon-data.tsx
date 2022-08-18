@@ -20,6 +20,5 @@ export const iconData = [
   { name: "tailwind", icon: <TailwindIcon /> },
   { name: "material ui", icon: <MaterialIcon /> },
   { name: "html", icon: <HtmlIcon /> },
-  { name: "css", icon: <CssIcon /> },
-  { name: "node", icon: <NodeIcon /> },
+  { name: "css", icon: <CssIcon /> }
 ];
