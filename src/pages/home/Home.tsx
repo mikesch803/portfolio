@@ -55,12 +55,12 @@ export function Home() {
                 ))}
               </ul>
               <div className="flex gap-1 mt-2 text-sm ">
-                <Link to={item.live}><button className="border capitalize px-4  py-1 rounded-2xl  bg-orange-500 text-white hover:bg-orange-600">
+                <a target="blank" href={item.live}><button className="border capitalize px-4  py-1 rounded-2xl  bg-orange-500 text-white hover:bg-orange-600">
                   live site
-                </button></Link>
-                <Link to={item.github}><button className=" border capitalize px-4 py-1 rounded-2xl text-gray-500 hover:border-orange-600">
+                </button></a>
+                <a target="blank" href={item.github}><button className=" border capitalize px-4 py-1 rounded-2xl text-gray-500 hover:border-orange-600">
                   source code
-                </button></Link>
+                </button></a>
               </div>
             </li>
           ))}
