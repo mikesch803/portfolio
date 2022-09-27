@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { default as hero } from "../../assets/images/hero.png";
 import { iconData } from "../../data/icon-data";
 import { projectsData } from "../../data/projects-data";
@@ -54,12 +55,12 @@ export function Home() {
                 ))}
               </ul>
               <div className="flex gap-1 mt-2 text-sm ">
-                <button className="border capitalize px-4  py-1 rounded-2xl  bg-orange-500 text-white hover:bg-orange-600">
+                <Link to={item.live}><button className="border capitalize px-4  py-1 rounded-2xl  bg-orange-500 text-white hover:bg-orange-600">
                   live site
-                </button>
-                <button className=" border capitalize px-4 py-1 rounded-2xl text-gray-500 hover:border-orange-600">
+                </button></Link>
+                <Link to={item.github}><button className=" border capitalize px-4 py-1 rounded-2xl text-gray-500 hover:border-orange-600">
                   source code
-                </button>
+                </button></Link>
               </div>
             </li>
           ))}

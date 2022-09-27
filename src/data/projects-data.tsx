@@ -26,8 +26,8 @@ export const projectsData = [
     ],
     video:
       "https://drive.google.com/file/d/1gMVWdUVmIIOTiPzKXQECbaseoYN35O8O/preview",
-    github: "https://github.com/mikesch803/react-fit-video",
-    live: "https://fit-video-library.netlify.app/",
+    github: "https://github.com/mikesch803/react-fit-social",
+    live: "https://react-connect-sm.netlify.app/",
   },
   {
     id: "2",
@@ -51,8 +51,8 @@ export const projectsData = [
     ],
     video:
       "https://drive.google.com/file/d/17BIBmUr_zPUqUJ5w2n415nPkSAjt_jJy/preview",
-    github: "https://github.com/mikesch803/react-note-app",
-    live: "https://react-fit-note.netlify.app/",
+    github: "https://github.com/mikesch803/react-fit-video",
+    live: "fit-video-library.netlify.app/",
   },
   {
     id: "3",
