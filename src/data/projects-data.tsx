@@ -52,7 +52,7 @@ export const projectsData = [
     video:
       "https://drive.google.com/file/d/17BIBmUr_zPUqUJ5w2n415nPkSAjt_jJy/preview",
     github: "https://github.com/mikesch803/react-fit-video",
-    live: "fit-video-library.netlify.app/",
+    live: "https://fit-video-library.netlify.app/",
   },
   {
     id: "3",
